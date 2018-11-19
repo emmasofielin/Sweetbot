@@ -1,6 +1,5 @@
 <!doctype html>
-<html>
-<head>
+<html><head>
 	<link rel="stylesheet" href="sweetbot-onepage.css">
 	<style>
 	<body bgcolor="#67c78f">
@@ -20,17 +19,23 @@
 			width: 100%;
 			height: 50px;
 			background: white;
-			font-family: Arial; 
-		
+			font-family: Arial;
+			text-align: right;
 			
 		}
+		
+		
+		
+		
+			
+		
 		section {
 			display:block;
 			height: 100vh;
 			padding-top: 50px;
 		}
 		
-		#home {
+		#hjem {
 			background: #67c78f;
 			font-family: Arial;
 		}
@@ -65,7 +70,14 @@
 			background: #67c78f;
 			font-family: Arial;
 			
+			
 			}
+		
+		#knap {
+			margin-top: 100px;
+			
+		}
+		
 		
 	</style>
 <title>Eksempel</title>
@@ -116,19 +128,24 @@
 </head>
 
 <body>
+	
+	
 	<nav>
-	<a href="#home">Hjem</a>
+		
+    <a href="#hjem">Hjem</a>
 	<a href="#hjemmeside">Hjemmeside</a>
 	<a href="#webshop">Webshop</a>
 	<a href="#branding">Branding</a>
 	<a href="#digitalsikkerhed">Digital sikkerhed</a>
 	<a href="#omos">Om os</a>
-	<a href="#contact">Kontakt os</a>
-	
+	<a href="#kontakt">Kontakt os</a>
+		
 
 	</nav>
-		
-	<section id="home">
+	
+	
+	
+	<section id="hjem">
 		<h1>Hjem</h1>
    
 	</section>
@@ -160,9 +177,14 @@
 	
 <section id="kontakt">
 	<h1>Kontakt</h1>
-    <input type="text" id="tekstfelt" />
-	<input type="button" id="knap" value="Tryk her"/>
-    <div id="resultat"> Svaret kommer her... </div>
+	<h6>Dit navn</h6>
+    <input type="text" id="tekstfelt1" />
+	<h6>Din e-mail</h6>
+	<input type="text" id="tekstfelt2" />
+	<h6>Din besked</h6>
+	<input type="text" id="tekstfelt3" />
+	<input type="button" id="knap" value="Send"/>
+    <div id="resultat">Så hører du fra os</div>
 	</section>
 
 	
