@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">s
+<title>Sweetbot</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/css/swiper.css">
+<link rel="stylesheet" href="sweetbot.stylesheet.css">
+<meta charset="utf-8">
+<!-- laoding jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+<nav> <img id="imgtext" src="images/sweetbot.main.png" width="200"  alt=""/> 
+  <ul>
+	<li><a href="#hjem">Hjem</a> </li>
+	<li><a href="#hjemmeside">Hjemmeside</a></li>
+	<li><a href="#webshop">Hotbot</a></li> 
+	<li><a href="#branding">Branding</a></li> 
+	<li><a href="#digitalsikkerhed">Digital sikkerhed</a></li> 
+	<li><a href="#omos">Om os</a></li> 
+	<li><a href="#kontakt">Kontakt os</a></li>	
+	</ul>
+	
+	 
+
+
+</nav>
+	
+<section id="hjem">
+<div class="hero-box">
+        <h1 style="padding-top: 55px;">Nulla commodo iaculis vulputate. Nullam enim mauris, dignissim id est nec, mollis pretium nulla
+        </h1>
+	 </div>
+<div class="hero-box2">
+        <h1 class="h1-box1">Nulla commodo iaculis vulputate. Nullam enim mauris, dignissim id est nec, mollis pretium nulla.</h1>
+	</div>
+<div class="hero-box3">
+        <h1>Nulla commodo iaculis vulputate. Nullam enim mauris, dignissim id est nec, mollis pretium nulla.</h1>
+                </div>
+
+</section>
+
+	<section id="hjemmeside">
+  <h1>Hjemmeside</h1>
+  <div class="swiper-container" >
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      <div class="swiper-slide">Slide 4</div>
+      <div class="swiper-slide">Slide 5</div>
+      <div class="swiper-slide">Slide 6</div>
+      <div class="swiper-slide">Slide 7</div>
+      <div class="swiper-slide">Slide 8</div>
+      <div class="swiper-slide">Slide 9</div>
+      <div class="swiper-slide">Slide 10</div>
+    </div>
+  </div>
+	  <div class="text-box-hjem">
+			<p>
+			Hej ajiosdjasiodjasoidj
+				osidfoisdjfijiodsfjosaidf
+				oijasdofijdasiofjadsiojf
+				andsfjsdiofjasdiofjoadfjoj
+			</p>
+		</div>
+</section>
+
+	<section id="webshop">
+  <h1>Hotbot</h1>
+		<img src="images/hotbot.png" width="300" height="300" alt="" style="position: relative;margin: 0;padding: 0;"/>
+	</section>
+
+	<section id="branding">
+  <h1>Branding</h1>
+</section>
+
+	<section id="digitalsikkerhed">
+  <h1>Digital sikkerhed</h1>
+</section>
+
+<section id="omos">
+  <h1>Om os</h1>
+
+</section>
+
+<section id="kontakt">
+  <h1>Kontakt</h1>
+  <h6>Dit navn</h6>
+  
+	<script>
+	
+	$(document).ready(function(){
+		// bliver udført når dokumentet er læst ind!
+		console.log('jQuery er der!');
+		$('#knap').click(klik);
+		
+		// implementing scroll animation
+		$('nav a').click(function(){
+			$(window).scrollTo(this.hash, 1000);
+		});
+		
+	
+		
+		
+	}); 
+	
+	//var trigger = document.getElementById('knap');
+	//trigger.addEventListener('click', klik); 
+	
+	
+	
+	function klik() {
+		  	var msg = $('#resultat');
+	        if(!$('#tekstfelt').val()){
+			   //alert('Please - fill in your name!');
+				msg.html('Please - fill in your name!').css('color, 'red');
+			   }else{
+				 var brugerensNavn  = $('#tekstfelt').val();
+				 $('#resultat').html('Hej' + brugerensNavn).css('color', 'green');;
+	    //var brugerensNavn = document.getElementById("tekstfelt").value;
+		//document.getElementById("resultat").innerHTML = "Hej " + brugerensNavn;
+			   }
+			
+</script>
+	
+	
+<input type="text1" id="tekstfelt1" />
+<h6>Din e-mail</h6>
+<input type="text2" id="tekstfelt2" />
+<h6>Din besked</h6>
+<input type="text3" id="tekstfelt3" />
+<div id="resultat"></div>
+<input type= "image" id="brev" onclick="brev" src="images/brevny.png" width="50" height="30" alt="a very beutiful picutre"/>
+  
+</section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/swiper.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+</html>
