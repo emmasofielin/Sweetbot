@@ -1,0 +1,360 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.hero-box {
+    height: 240px;
+    width: 750px;
+    background-color: #67c78f;
+    position: absolute;
+    left: 180px;
+    top: 335px;
+    text-align: center;
+    padding-right: 50px;
+}
+
+.h1-box1 {
+	    padding-right: 100px;
+    padding-left: 25px;
+}
+
+.hero-box2 {
+        height: 300px;
+        width: 500px;
+        background-color:#00FFFF;
+        position: absolute;
+        left: 75px;
+        top: 100px;
+        }
+.hero-box3 {
+        height: 300px;
+        width: 500px;
+        background-color:#f79f5c;
+        position: absolute;
+        left: 500px;
+        top: 80px;
+}
+
+
+
+body {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			background: #333;
+			
+		}
+		nav {
+			position: fixed;
+			top: 0%;
+			left: 0px;
+			z-index: 9999;
+			width: 100%;
+			height: 50px;
+			background: white;
+			font-family: Arial;
+			text-align: right;
+			font-weight: bold;
+		}
+		
+		
+				
+			
+		
+		section {
+			display:block;
+			height: 100vh;
+			padding-top: 50px;
+		}
+		
+		#hjem {
+			background: #333;
+			font-family: Arial;
+}
+		
+			
+		#hjemmeside {
+			background: #333;
+			font-family: Arial;
+}
+#webshop {
+			background: #333;
+			font-family: Arial;
+		}
+		
+		#branding {
+			background: #333;
+			font-family: Arial;
+		}
+		
+		#digitalsikkerhed {
+			background: #333;
+			font-family: Arial;
+		}
+		
+		#omos {
+			background: #333;
+			font-family: Arial;
+		}
+		
+		
+		#kontakt {
+			background: #333;
+			font-family: Arial;
+			
+			
+			}
+
+brev {
+	margin-bottom: 5%;
+}
+
+		
+		#knap {
+			margin-top: 100px;
+			
+		}
+		
+		a {
+			color: black;
+			text-decoration: none;
+			font-style: normal;
+	
+		}
+		
+		a:hover {
+			background-color: lightcyan;
+		}
+		
+
+		img {
+			position: fixed;
+			margin-left: 0%;
+			padding-top: 20%;
+			margin-top: 50%;
+		
+			
+		}
+
+.navigation {
+	color: #f79f5c;
+	
+}
+
+
+
+body {
+	color: #fff;
+	text-align: center;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+    position: relative;
+    display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+    position: absolute;
+    bottom: 0px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+    .swiper-container {
+      width: 100%;
+      height: 250px;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+.text-box-hjem {
+	margin: 0 auto;
+	background-color:#05A428;
+	height: 150px;
+	width: 250px
+}
+
+
+
+.e-commerce {
+	background-image: url("images/e-commerce2.png");
+	height: 380px;
+	width: 595px;
+	position: absolute;
+	right: 100px;
+}
+.bookos {
+	background-image: url("images/bookos.png");
+	height: 32px;
+	width: 129px;
+	position: absolute;
+	right: 900px;
+	top: 1650px;
+}
+.sushi {
+	background-image: url("images/sushi.icon.png");
+	height: 193px;
+	width: 193px;
+	position: absolute;
+	left: 780px;
+}
+.hot {
+	background-image: url("images/hotbot.icon.png");
+	height: 193px;
+	width: 193px;
+	position: absolute;
+	right: 530px;
+}
+.munrok {
+	background-image: url("images/munrok.icon.png");
+	height: 193px;
+	width: 193px;
+	position: absolute;
+	left: 300px;
+}
+.brand-box {
+	background-color:#05A428;
+	height: 250px;
+	width: 550px;
+	margin: 0 auto;
+	margin-top: 250px;
+	top: 40px;
+}
+.lock {
+	background-image: url("images/lock.png");
+	height: 594px;
+	width: 300px;
+	position: absolute;
+	left: 100px;
+}
+
+.omos {
+	background-image: url("images/omos (1).png");
+	height: 220px;
+	width: 887px;
+	position: absolute;
+	left: 200px;
+	
+}
+.omos1-box {
+	background-color:#05A428;
+	height: 250px;
+	width: 193px;
+	left: 100px;
+	margin: 0 auto;
+	margin-top: 250px;
+	top: 40px;
+	padding-right: 1px;
+	border: 2px;
+	border-radius: 15px;
+	
+}
+.omos2-box {
+	background-color:#05A428;
+	height: 250px;
+	width: 193px;
+	left: 200px;
+	top: 40px;
+	padding-right: 1px;
+	border: 2px;
+	border-radius: 15px;
+	
+}
+.omos3-box {
+	background-color:#05A428;
+	height: 250px;
+	width: 193px;
+	top: 4px;
+	padding-right: 1px;
+	border: 2px;
+	border-radius: 15px;
+	
+}
+.omos4-box {
+	background-color:#05A428;
+	height: 250px;
+	width: 193px;
+	right: 100px;
+	top: 4px;
+	padding-right: 1px;
+	border: 2px;
+	border-radius: 15px;
+	
+}
