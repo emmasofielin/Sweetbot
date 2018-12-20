@@ -314,45 +314,13 @@ body {
 	
 }
 .omos1-box {
-	background-color:#05A428;
+	background-color: white;
 	height: 250px;
 	width: 193px;
 	left: 100px;
 	margin: 0 auto;
 	margin-top: 250px;
 	top: 40px;
-	padding-right: 1px;
-	border: 2px;
-	border-radius: 15px;
-	
-}
-.omos2-box {
-	background-color:#05A428;
-	height: 250px;
-	width: 193px;
-	left: 200px;
-	top: 40px;
-	padding-right: 1px;
-	border: 2px;
-	border-radius: 15px;
-	
-}
-.omos3-box {
-	background-color:#05A428;
-	height: 250px;
-	width: 193px;
-	top: 4px;
-	padding-right: 1px;
-	border: 2px;
-	border-radius: 15px;
-	
-}
-.omos4-box {
-	background-color:#05A428;
-	height: 250px;
-	width: 193px;
-	right: 100px;
-	top: 4px;
 	padding-right: 1px;
 	border: 2px;
 	border-radius: 15px;

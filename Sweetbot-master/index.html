@@ -103,73 +103,37 @@
 	
 <div class="omos">
 	 </div>
-<div class="omos1-box">
-	<p> jjhljdslijelijeijsdfiljfcil
-	</p>
-	</div>
-	<div class="omos2-box">
-	<p> jjhljdslijelijeijsdfiljfcil
-	</p>
-	</div>
-	<div class="omos3-box">
-	<p> jjhljdslijelijeijsdfiljfcil
-	</p>
-	</div>
-	<div class="omos4-box">
-	<p> jjhljdslijelijeijsdfiljfcil
-	</p>
-	</div>
+
 
 </section>
 
 <section id="kontakt">
   <h1>Kontakt</h1>
-  <h6>Dit navn</h6>
   
-	<script>
 	
-	$(document).ready(function(){
-		// bliver udført når dokumentet er læst ind!
-		console.log('jQuery er der!');
-		$('#knap').click(klik);
-		
-		// implementing scroll animation
-		$('nav a').click(function(){
-			$(window).scrollTo(this.hash, 1000);
-		});
-		
-	
-		
-		
-	}); 
-	
-	//var trigger = document.getElementById('knap');
-	//trigger.addEventListener('click', klik); 
-	
-	
-	
-	function klik() {
-		  	var msg = $('#resultat');
-	        if(!$('#tekstfelt').val()){
-			   //alert('Please - fill in your name!');
-				msg.html('Please - fill in your name!').css('color, 'red');
-			   }else{
-				 var brugerensNavn  = $('#tekstfelt').val();
-				 $('#resultat').html('Hej' + brugerensNavn).css('color', 'green');;
-	    //var brugerensNavn = document.getElementById("tekstfelt").value;
-		//document.getElementById("resultat").innerHTML = "Hej " + brugerensNavn;
-			   }
-			
-</script>
+	 <form action="mailto:cph-ea95@cphbusiness.dk" method="post">
+		<p>
+		  <label>Your name:</label>
+		</p>	
+		<p>
+		  <input type="text" name="name" placeholder="Type your name.." autofocus required>
+		</p>
+		<p>
+		  <label>Your e-mail:</label>
+		</p>
+		 <input type="email" name="name" placeholder="Type a valid mail adres.." autofocus required>
+		<p>
+		  <label>Your message:</label>
+		</p>	
+		<p><textarea name="Comment" placeholder="Yor message..."></textarea></p>
+		<p><input type="radio" name="love">
+		</p>
+		<input type="submit" value="Submit Form">
+					 
+</form>
 	
 	
-<input type="text1" id="tekstfelt1" />
-<h6>Din e-mail</h6>
-<input type="text2" id="tekstfelt2" />
-<h6>Din besked</h6>
-<input type="text3" id="tekstfelt3" />
-<div id="resultat"></div>
-<input type= "image" id="brev" onclick="brev" src="images/brevny.png" width="50" height="30" alt="a very beutiful picutre"/>
+	
   
 </section>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/swiper.js"></script>
@@ -183,5 +147,11 @@
       },
     });
   </script>
+	
+	
+	
+	
+	
+	
 </body>
 </html>
